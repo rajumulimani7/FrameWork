@@ -87,7 +87,7 @@ public class CreateOrganizationTest extends BaseClass {
 	
 		String data = eu.grtExcelValue("Sheet1", 0, 0)+rannum;
 		
-		System.out.println(data);
+		//System.out.println(data);
 		HomePage h=new HomePage(driver);
 		h.organiz();
 		//driver.findElement(By.xpath("(//a[text()='Organizations'])[1]")).click();
