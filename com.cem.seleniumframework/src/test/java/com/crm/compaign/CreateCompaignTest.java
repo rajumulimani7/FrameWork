@@ -79,7 +79,7 @@ public class CreateCompaignTest extends BaseClass {
 		                                                                                     	Row row = sh.getRow(0);
 		                                                                                       	Cell cell = row.getCell(2);
 			                                                                                   String data = cell.getStringCellValue()+rannum;	*/
-			                                                                                                     //System.out.println(data);
+			      System.out.println(data); 
 			 ccp.Compaignnametextfild(data);
 			 
 			                                                   
